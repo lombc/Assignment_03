@@ -2,7 +2,41 @@
     box-sizing: border-box;
 }
 
-/* Define your themes in CSS */
+img {
+    max-width: 100%;
+}
+
+body {
+    background-color: #9D8D84;
+}
+
+
+
+#banner {
+    text-align: center;
+    color: white;
+}
+
+#banner h1 {
+    font-size: 3em;
+    margin-bottom: 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#banner p {
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+
+
+
+
+
+/*
+
+Dark/Light Mode Feature
+
 body {
     transition: background-color 0.5s ease;
 }
@@ -16,3 +50,5 @@ body {
     background-color: #000;
     color: #fff;
 }
+
+*/

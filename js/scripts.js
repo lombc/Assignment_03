@@ -1,7 +1,9 @@
 
 
 /*
-// Change Theme Function
+Change Theme Function
+
+
 $(document).ready(function () {
     var theme = 'light';
     $('#theme-button').click(function () {

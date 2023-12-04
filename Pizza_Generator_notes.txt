@@ -1,0 +1,26 @@
+Pizza Generator
+
+Pizza Flavours:
+- Cheese Pizza
+	- Pizza Base, Marinara Sauce, Cheese
+- Veggie Pizza
+	- Pizza Base, Marinara Sauce, Cheese, Red Peppers, Olives, 	  Tomato, Basil
+- Pepperoni Pizza
+	- Pizza Base, Marinara Sauce, Cheese, Pepperoni
+- Meat Pizza
+	- Pizza Base, Marinara Sauce, Cheese, Pepperoni, Ham, 
+- Margherita Pizza
+	- Pizza Base, Marinara Sauce, Cheese, Basil
+- Hawaiian Pizza
+	- Pizza Base, Marinara Sauce, Cheese, Ham, Pineapple
+
+Toppings:
+- Pepperoni
+- Ham
+- Cheese
+- Olives
+- Tomato
+- Basil
+- Red Peppers
+- Pineapple
+
