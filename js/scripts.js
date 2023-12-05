@@ -241,4 +241,5 @@ $(document).ready(function() {
         $('#pizza-type').empty().append(img);
         
     });
+
 });
