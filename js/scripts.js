@@ -31,6 +31,8 @@ $(document).ready(function() {
         }
     });
 
+    // Videos Generated are from the Eater Youtube Channel
+    // Recommend checking it out!!!
     // Array of YouTube video IDs
     var videoIds = ['ADvf-PIZPLA', 'b5dv_j9SdC0', 'UP094AuTCO4', 'CuBxs1eW0u0', '5UjmB6MLhHE'];
 
@@ -57,8 +59,8 @@ $(document).ready(function() {
         $('#pizza-type').empty().append(iframe);
     }
 
+    // Call the function to generate a random video
     $('#watch-video').on('click', function() {
-        // Call the function to generate a random video
         generateRandomVideo();
     });
 
@@ -74,13 +76,16 @@ $(document).ready(function() {
             $(img).hover(
                 function() {
                     // This function is executed when the mouse pointer enters the image
-                    $(this).css('opacity', '0.3');
+                    $(this).css('opacity', '0.2');
+                    $(text).css('display', 'block'); // Show the text
                 }, 
                 function() {
                     // This function is executed when the mouse pointer leaves the image
                     $(this).css('opacity', '1');
+                    $(text).css('display', 'none'); // Hide the text
                 }
             );
+
 
         } else if (this.id === 'vg_pizza') {
             img.src = 'imgs/veggie_pizza.svg';
@@ -99,6 +104,18 @@ $(document).ready(function() {
             img.style.left = x + 'px';
             img.style.top = y + 'px';
 
+            // Add hover event
+            $(img).hover(
+                function() {
+                    // This function is executed when the mouse pointer enters the image
+                    $(this).css('opacity', '0.2');
+                }, 
+                function() {
+                    // This function is executed when the mouse pointer leaves the image
+                    $(this).css('opacity', '1');
+                }
+            );
+
         } else if (this.id === 'pp_pizza') {
             img.src = 'imgs/pepperoni_pizza.svg';
 
@@ -115,6 +132,18 @@ $(document).ready(function() {
             // Position the SVG image at the generated coordinates
             img.style.left = x + 'px';
             img.style.top = y + 'px'; 
+
+            // Add hover event
+            $(img).hover(
+                function() {
+                    // This function is executed when the mouse pointer enters the image
+                    $(this).css('opacity', '0.2');
+                }, 
+                function() {
+                    // This function is executed when the mouse pointer leaves the image
+                    $(this).css('opacity', '1');
+                }
+            );
 
         } else if (this.id === 'mt_pizza') {
             img.src = 'imgs/meat_pizza.svg';
@@ -133,6 +162,18 @@ $(document).ready(function() {
             img.style.left = x + 'px';
             img.style.top = y + 'px';
 
+            // Add hover event
+            $(img).hover(
+                function() {
+                    // This function is executed when the mouse pointer enters the image
+                    $(this).css('opacity', '0.2');
+                }, 
+                function() {
+                    // This function is executed when the mouse pointer leaves the image
+                    $(this).css('opacity', '1');
+                }
+            );
+
         } else if (this.id === 'mg_pizza') {
             img.src = 'imgs/margh_pizza.svg';
 
@@ -149,6 +190,18 @@ $(document).ready(function() {
             // Position the SVG image at the generated coordinates
             img.style.left = x + 'px';
             img.style.top = y + 'px';
+
+            // Add hover event
+            $(img).hover(
+                function() {
+                    // This function is executed when the mouse pointer enters the image
+                    $(this).css('opacity', '0.2');
+                }, 
+                function() {
+                    // This function is executed when the mouse pointer leaves the image
+                    $(this).css('opacity', '1');
+                }
+            );
 
         } else if (this.id === 'hw_pizza') {
             img.src = 'imgs/hawaii_pizza.svg';
@@ -167,6 +220,18 @@ $(document).ready(function() {
             img.style.left = x + 'px';
             img.style.top = y + 'px'; 
 
+            // Add hover event
+            $(img).hover(
+                function() {
+                    // This function is executed when the mouse pointer enters the image
+                    $(this).css('opacity', '0.2');
+                }, 
+                function() {
+                    // This function is executed when the mouse pointer leaves the image
+                    $(this).css('opacity', '1');
+                }
+            );
+
         } else if(this.id === 'clear-table') { 
             $('#pizza-type').empty();
             pizza_nm = document.getElementById('clear-table')
@@ -175,9 +240,5 @@ $(document).ready(function() {
         // Remove previous image and append the new one
         $('#pizza-type').empty().append(img);
         
-
     });
-
-
-
 });
