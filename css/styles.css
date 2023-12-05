@@ -3,7 +3,7 @@
 }
 
 img {
-    max-width: 95%;
+    max-width: 100%;
 }
 
 body {
@@ -34,7 +34,7 @@ body {
 #banner h1 {
     font-size: 3.2em;
     margin-bottom: 0;
-    margin-top: 15px;
+    margin-top: 0;
     font-family: 'Righteous', sans-serif;
 }
 
@@ -43,10 +43,15 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+#pizza-type img{
+    cursor: pointer;
+}
+
 .main-content {
     margin-left: 275px; /* width of side menu + padding */
     display: block;
     text-align: center;
+    margin-top: 0;
 }
 
 .main-content > * {
@@ -59,10 +64,11 @@ body {
     left: 0;
     top: 0;
     height: 100%;
-    width: 300px;
+    width: 350px;
     background-color: #574335;
     padding: 20px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 0 50% 50% 0 / 0 30% 30% 0;
 }
 
 .side-menu h2 {
