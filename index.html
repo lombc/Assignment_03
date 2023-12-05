@@ -4,49 +4,56 @@
 <head>
     <title>Assignment 3</title>
     <link rel="stylesheet" href="css/styles.css">
+    <!-- Font Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Righteous&display=swap" rel="stylesheet">
+ 
 </head>
 
 <body>
+    <!-- Background Music -->
+    <audio id="restaurant">
+		<source src="audio/AMBRest_Restaurant (ID 0624)_BSB.mp3" type="audio/mp3">
+	</audio>
     <section class="main-content" id="banner">
-        <h1>Pizza Generator</h1>
-        <p>Pick some pre-determined types of pizza that you want and see what they look like
-            or you could make your own pizza with the toppings you want!
-        </p>
-        <!-- Counter -->
-        <div id="tb-counter">
-
-        </div>
+        <h1>PIZZA GENERATOR</h1>
+        <p>Pick some choices and your web browser will make you a pizza!</p>
+        <div id="pizza-type"></div>
+        <div id="ingredients"></div>
     </section>
 
     <!-- Side Menu -->
     <section>
         <div class="side-menu">
             <ul>
+                <h2>Pizza Menu:</h2>
                 <li class="pizza-button" id="ch_pizza">Cheese Pizza</li>
-                <li class="pizza-button"  id="vg_pizza">Veggie Pizza</li>
-                <li class="pizza-button"  id="pp_pizza">Pepperoni Pizza</li>
-                <li class="pizza-button"  id="mt_pizza">Meat Pizza</li>
-                <li class="pizza-button"  id="mg_pizza">Margherita Pizza</li>
-                <li class="pizza-button"  id="hw_pizza">Hawaiian Pizza</li>
+                <li class="pizza-button" id="vg_pizza">Veggie Pizza</li>
+                <li class="pizza-button" id="pp_pizza">Pepperoni Pizza</li>
+                <li class="pizza-button" id="mt_pizza">Meat Pizza</li>
+                <li class="pizza-button" id="mg_pizza">Margherita Pizza</li>
+                <li class="pizza-button" id="hw_pizza">Hawaiian Pizza</li>
+                <br><br>
+                <li class="pizza-button" id="clear-table">Clear Table</li>
             </ul>
             <br>
-            <h2>Make your own pizza:</h2>
+            <br>
             <ul>
-                <li>Pepperoni</li>
-                <li>Ham</li>
-                <li>Cheese</li>
-                <li>Olives</li>
-                <li>Tomato</li>
-                <li>Basil</li>
-                <li>Red Peppers</li>
-                <li>Pineapple</li>
-                <li>Clear</li>
+                <h2>Other:</h2>
+                <li id="audio-button"><p>Turn on audio</p></li>
+                <li id="watch-video"><p>Tummy Inspiration</p></li>
+                <li id="theme-button"><p>Change Theme</p></li>
+            </ul>
+            <br><br><br><br>
+            <ul>
+                <h2>Citations:</h2>
+                <li><a href="https://bigsoundbank.com/sound-0624-restaurant.html" target="_blank">Background Music</a></li>
             </ul>
         </div>
     </section>
     
-
-    <!--<button id="theme-button">Change Theme</button>-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="js/scripts.js"></script>
 </body>
