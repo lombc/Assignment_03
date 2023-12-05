@@ -78,8 +78,7 @@ $(document).ready(function() {
             $(img).hover(
                 function() {
                     // This function is executed when the mouse pointer enters the image
-                    $(this).css('opacity', '0.2');
-                   
+                    $(this).css('opacity', '0.5');
                 }, 
                 function() {
                     // This function is executed when the mouse pointer leaves the image
@@ -115,7 +114,7 @@ $(document).ready(function() {
             $(img).hover(
                 function() {
                     // This function is executed when the mouse pointer enters the image
-                    $(this).css('opacity', '0.2');
+                    $(this).css('opacity', '0.5');
                 }, 
                 function() {
                     // This function is executed when the mouse pointer leaves the image
@@ -151,7 +150,7 @@ $(document).ready(function() {
             $(img).hover(
                 function() {
                     // This function is executed when the mouse pointer enters the image
-                    $(this).css('opacity', '0.2');
+                    $(this).css('opacity', '0.5');
                 }, 
                 function() {
                     // This function is executed when the mouse pointer leaves the image
@@ -188,7 +187,7 @@ $(document).ready(function() {
             $(img).hover(
                 function() {
                     // This function is executed when the mouse pointer enters the image
-                    $(this).css('opacity', '0.2');
+                    $(this).css('opacity', '0.5');
                 }, 
                 function() {
                     // This function is executed when the mouse pointer leaves the image
@@ -225,7 +224,7 @@ $(document).ready(function() {
             $(img).hover(
                 function() {
                     // This function is executed when the mouse pointer enters the image
-                    $(this).css('opacity', '0.2');
+                    $(this).css('opacity', '0.5');
                 }, 
                 function() {
                     // This function is executed when the mouse pointer leaves the image
@@ -261,7 +260,7 @@ $(document).ready(function() {
             $(img).hover(
                 function() {
                     // This function is executed when the mouse pointer enters the image
-                    $(this).css('opacity', '0.2');
+                    $(this).css('opacity', '0.5');
                 }, 
                 function() {
                     // This function is executed when the mouse pointer leaves the image
