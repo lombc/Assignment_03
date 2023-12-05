@@ -1,3 +1,8 @@
+/*
+    NMED 3520 A - Web Design & Development
+    Assignment 3 - Pizza Generator
+    Name: Cyrus Lomibao
+*/
 $(document).ready(function() {
     
     // Works with turning on and off the audio
