@@ -148,7 +148,7 @@ $(document).ready(function() {
     
             // Position the SVG image at the generated coordinates
             img.style.left = x + 'px';
-            img.style.top = y + 'px'; 
+            img.style.top = y + 'px';
 
         } else if (this.id === 'hw_pizza') {
             img.src = 'imgs/hawaii_pizza.svg';
