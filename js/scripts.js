@@ -10,26 +10,88 @@ $(document).ready(function() {
             img.src = 'imgs/cheese_pizza.svg';
         } else if (this.id === 'vg_pizza') {
             img.src = 'imgs/veggie_pizza.svg';
+
             // Generate random x and y coordinates
             var x = Math.random() * window.innerWidth;
             var y = Math.random() * window.innerHeight;
     
-            // Generate a random rotation
-            var rotation = Math.random() * 360;
+            // Generate a random rotation in increments of 45 degrees
+            var rotation = Math.floor(Math.random() * 4) * 90;
     
             // Apply the rotation
             img.style.transform = 'rotate(' + rotation + 'deg)';
-
+    
+            // Position the SVG image at the generated coordinates
+            img.style.left = x + 'px';
+            img.style.top = y + 'px';     
         } else if (this.id === 'pp_pizza') {
             img.src = 'imgs/pepperoni_pizza.svg';
+
+            // Generate random x and y coordinates
+            var x = Math.random() * window.innerWidth;
+            var y = Math.random() * window.innerHeight;
+    
+            // Generate a random rotation in increments of 45 degrees
+            var rotation = Math.floor(Math.random() * 4) * 90;
+    
+            // Apply the rotation
+            img.style.transform = 'rotate(' + rotation + 'deg)';
+    
+            // Position the SVG image at the generated coordinates
+            img.style.left = x + 'px';
+            img.style.top = y + 'px';    
         } else if (this.id === 'mt_pizza') {
             img.src = 'imgs/meat_pizza.svg';
+
+            // Generate random x and y coordinates
+            var x = Math.random() * window.innerWidth;
+            var y = Math.random() * window.innerHeight;
+    
+            // Generate a random rotation in increments of 45 degrees
+            var rotation = Math.floor(Math.random() * 4) * 90;
+    
+            // Apply the rotation
+            img.style.transform = 'rotate(' + rotation + 'deg)';
+    
+            // Position the SVG image at the generated coordinates
+            img.style.left = x + 'px';
+            img.style.top = y + 'px';    
         } else if (this.id === 'mg_pizza') {
             img.src = 'imgs/margh_pizza.svg';
+
+            // Generate random x and y coordinates
+            var x = Math.random() * window.innerWidth;
+            var y = Math.random() * window.innerHeight;
+    
+            // Generate a random rotation in increments of 45 degrees
+            var rotation = Math.floor(Math.random() * 4) * 90;
+    
+            // Apply the rotation
+            img.style.transform = 'rotate(' + rotation + 'deg)';
+    
+            // Position the SVG image at the generated coordinates
+            img.style.left = x + 'px';
+            img.style.top = y + 'px';    
         } else if (this.id === 'hw_pizza') {
             img.src = 'imgs/hawaii_pizza.svg';
-        }
-        $('#tb-counter').empty().append(img); // Remove previous image and append the new one
+
+            // Generate random x and y coordinates
+            var x = Math.random() * window.innerWidth;
+            var y = Math.random() * window.innerHeight;
+    
+            // Generate a random rotation in increments of 45 degrees
+            var rotation = Math.floor(Math.random() * 4) * 90;
+    
+            // Apply the rotation
+            img.style.transform = 'rotate(' + rotation + 'deg)';
+    
+            // Position the SVG image at the generated coordinates
+            img.style.left = x + 'px';
+            img.style.top = y + 'px';    
+        }        
+        
+        // Remove previous image and append the new one
+        $('#tb-counter').empty().append(img); 
     });
 
 });
