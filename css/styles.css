@@ -3,14 +3,28 @@
 }
 
 img {
-    max-width: 100%;
+    max-width: 95%;
 }
 
 body {
-    background-color: #9D8D84;
+    background-color: #B88E72;
+    transition: background-color 0.5s ease;
 }
 
 
+/* Dark/Light Mode Feature */
+
+.light-theme {
+    background-color: #B88E72;
+    color: #000;
+}
+
+.dark-theme {
+    background-color: #000;
+    color: #fff;
+}
+
+/* Header */
 
 #banner {
     text-align: center;
@@ -18,18 +32,25 @@ body {
 }
 
 #banner h1 {
-    font-size: 3em;
+    font-size: 3.2em;
     margin-bottom: 0;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: 'Righteous', sans-serif;
 }
 
 #banner p {
     font-size: 1.2em;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: 'Montserrat', sans-serif;
 }
 
 .main-content {
-    margin-left: 220px; /* width of side menu + padding */
+    margin-left: 275px; /* width of side menu + padding */
+    display: block;
+    text-align: center;
+}
+
+.main-content > * {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .side-menu {
@@ -37,12 +58,19 @@ body {
     left: 0;
     top: 0;
     height: 100%;
-    width: 200px;
-    background-color: #333;
+    width: 300px;
+    background-color: #574335;
     padding: 20px;
-    font-family: Arial, Helvetica, sans-serif
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
+.side-menu h2 {
+    color: #fff;
+    font-family: 'Righteous', sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+
+}
 
 .side-menu li {
     display: block;
@@ -50,11 +78,31 @@ body {
     text-decoration: none;
     margin-bottom: 10px;
     cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.side-menu li a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.side-menu li a:hover {
+    color: #f90;
+    cursor: pointer;
 }
 
 .side-menu li:hover {
     color: #f90;
     cursor: pointer;
+}
+
+.side-menu #audio-button:hover {
+    color: rgb(134, 255, 134);
+
 }
 
 .center {
@@ -64,22 +112,3 @@ body {
 }
 
 
-/*
-
-Dark/Light Mode Feature
-
-body {
-    transition: background-color 0.5s ease;
-}
-
-.light-theme {
-    background-color: #fff;
-    color: #000;
-}
-
-.dark-theme {
-    background-color: #000;
-    color: #fff;
-}
-
-*/
